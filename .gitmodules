@@ -1,0 +1,9 @@
+[submodule "lib/difont"]
+	path = lib/difont
+	url = git@github.com:cdave1/difont.git
+[submodule "lib/stb"]
+	path = lib/stb
+	url = git@github.com:nothings/stb.git
+[submodule "lib/mash"]
+	path = lib/mash
+	url = git@github.com:cdave1/mash.git
