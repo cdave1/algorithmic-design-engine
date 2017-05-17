@@ -108,7 +108,7 @@ bool ImageFunctions::WriteSVG(const std::string &filename, uint32_t width, uint3
         return false;
     }
 
-    outfile << "<svg x=\"0\" y=\"0\" width=\"" << width << "\" height=\"" << height << "\" version=\"1.1\" ";
+    outfile << "<svg x=\"" << -0.5 * width << "\" y=\"" << -0.5 * height << "\" width=\"" << width << "\" height=\"" << height << "\" version=\"1.1\" ";
     outfile << "xmlns=\"http://www.w3.org/2000/svg\" xlink=\"http://www.w3.org/1999/xlink\">";
 
     unsigned count = 0;

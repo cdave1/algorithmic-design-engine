@@ -265,8 +265,10 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
-AE.app
+TitleBuilder.app
+tb
 /output/
+/tmp/*
 .idea/
 .vscode/
 

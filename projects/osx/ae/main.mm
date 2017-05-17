@@ -54,7 +54,7 @@ int main(int argc, const char * argv[]) {
 
 #if 1
 //#define PREVIEW_OUTPUT true
-    lines = R"({"id":"323C763B-870F-46F8-9A8B-18090D29D3DA","category":"logo-text","lineHeight":0,"spacing":[0,0],"text":"OD","iteration":9,"font":"/Users/davidpetrie/Projects/aesthetics-engine/utils/tmp/futura_condensed_extra_bold.ttf","offset":[0,0],"fontSize":400,"output":[{"png":"323C763B-870F-46F8-9A8B-18090D29D3DA.png"},{"svg":"323C763B-870F-46F8-9A8B-18090D29D3DA.svg"},{"svg-mesh":"323C763B-870F-46F8-9A8B-18090D29D3DA.mesh.svg"}]}
+    lines = R"({"id":"323C763B-870F-46F8-9A8B-18090D29D3DA","category":"logo-text","lineHeight":0,"spacing":[0,0],"text":"OD","iteration":9,"font":"/Users/davidpetrie/Projects/title-builder/res/Diavlo_BLACK_II_37.otf","offset":[0,0],"fontSize":400,"output":[{"png":"323C763B-870F-46F8-9A8B-18090D29D3DA.png"},{"svg":"323C763B-870F-46F8-9A8B-18090D29D3DA.svg"},{"svg-mesh":"323C763B-870F-46F8-9A8B-18090D29D3DA.mesh.svg"}]}
     )";
 
     // unicode
@@ -348,8 +348,8 @@ int main(int argc, const char * argv[]) {
     for (auto job : jobs) {
         if (job->logoGenerator) {
 
-            NSString *pngDest = [NSString pathWithComponents:@[@"/Users/davidpetrie/Projects/aesthetics-engine", @"test", @"a.png"]];
-            NSString *svgDest = [NSString pathWithComponents:@[@"/Users/davidpetrie/Projects/aesthetics-engine", @"test", @"a.svg"]];
+            NSString *pngDest = [NSString pathWithComponents:@[@"/Users/davidpetrie/Projects/title-builder", @"tmp", @"a.png"]];
+            NSString *svgDest = [NSString pathWithComponents:@[@"/Users/davidpetrie/Projects/title-builder", @"tmp", @"a.svg"]];
 
             job->pngOutputLocation = [pngDest UTF8String];
             job->svgOutputLocation = [svgDest UTF8String];

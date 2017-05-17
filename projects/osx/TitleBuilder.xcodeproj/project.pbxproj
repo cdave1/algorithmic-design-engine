@@ -113,14 +113,14 @@
 
 /* Begin PBXFileReference section */
 		559939541832EE52000819D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		6318E9241339AA3C008BCE29 /* AE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6318E9241339AA3C008BCE29 /* TitleBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitleBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6318E9281339AA3C008BCE29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6318E92C1339AA3C008BCE29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6318E92D1339AA3C008BCE29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6318E9451339AAC6008BCE29 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		636290C816BCEF7000094B03 /* BaseInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BaseInfo.plist; sourceTree = "<group>"; };
 		636290C916BCEF7000094B03 /* BasePrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePrefix.pch; sourceTree = "<group>"; };
-		E40326AC1CA4D97300E65233 /* ae */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ae; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40326AC1CA4D97300E65233 /* tb */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tb; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40326AE1CA4D97300E65233 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		E40326CA1CA4E19800E65233 /* libGLEW.1.13.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.1.13.0.dylib; path = ../../../../../../usr/local/Cellar/glew/1.13.0/lib/libGLEW.1.13.0.dylib; sourceTree = "<group>"; };
 		E40326CC1CA4E1B800E65233 /* libglfw3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw3.3.1.dylib; path = ../../../../../../usr/local/Cellar/glfw3/3.1.2/lib/libglfw3.3.1.dylib; sourceTree = "<group>"; };
@@ -241,7 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				E4B4399B1ECBBCA800A5D4D0 /* lib */,
-				E40326AD1CA4D97300E65233 /* ae */,
+				E40326AD1CA4D97300E65233 /* TitleBuilder */,
 				636290C816BCEF7000094B03 /* BaseInfo.plist */,
 				636290C916BCEF7000094B03 /* BasePrefix.pch */,
 				6318E9271339AA3C008BCE29 /* Frameworks */,
@@ -258,8 +258,8 @@
 		6318E9251339AA3C008BCE29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6318E9241339AA3C008BCE29 /* AE.app */,
-				E40326AC1CA4D97300E65233 /* ae */,
+				6318E9241339AA3C008BCE29 /* TitleBuilder.app */,
+				E40326AC1CA4D97300E65233 /* tb */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,11 +300,12 @@
 			path = ../../Resources;
 			sourceTree = "<group>";
 		};
-		E40326AD1CA4D97300E65233 /* ae */ = {
+		E40326AD1CA4D97300E65233 /* TitleBuilder */ = {
 			isa = PBXGroup;
 			children = (
 				E40326AE1CA4D97300E65233 /* main.mm */,
 			);
+			name = TitleBuilder;
 			path = ae;
 			sourceTree = "<group>";
 		};
@@ -502,9 +503,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6318E9231339AA3C008BCE29 /* AE */ = {
+		6318E9231339AA3C008BCE29 /* TitleBuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6318E9421339AA3C008BCE29 /* Build configuration list for PBXNativeTarget "AE" */;
+			buildConfigurationList = 6318E9421339AA3C008BCE29 /* Build configuration list for PBXNativeTarget "TitleBuilder" */;
 			buildPhases = (
 				6318E9201339AA3C008BCE29 /* Sources */,
 				6318E9211339AA3C008BCE29 /* Frameworks */,
@@ -514,14 +515,14 @@
 			);
 			dependencies = (
 			);
-			name = AE;
+			name = TitleBuilder;
 			productName = skeleton;
-			productReference = 6318E9241339AA3C008BCE29 /* AE.app */;
+			productReference = 6318E9241339AA3C008BCE29 /* TitleBuilder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E40326AB1CA4D97300E65233 /* ae */ = {
+		E40326AB1CA4D97300E65233 /* tb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E40326B21CA4D97300E65233 /* Build configuration list for PBXNativeTarget "ae" */;
+			buildConfigurationList = E40326B21CA4D97300E65233 /* Build configuration list for PBXNativeTarget "tb" */;
 			buildPhases = (
 				E40326A81CA4D97300E65233 /* Sources */,
 				E40326A91CA4D97300E65233 /* Frameworks */,
@@ -532,9 +533,9 @@
 			);
 			dependencies = (
 			);
-			name = ae;
+			name = tb;
 			productName = ae;
-			productReference = E40326AC1CA4D97300E65233 /* ae */;
+			productReference = E40326AC1CA4D97300E65233 /* tb */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -551,7 +552,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6318E91E1339AA3B008BCE29 /* Build configuration list for PBXProject "AE" */;
+			buildConfigurationList = 6318E91E1339AA3B008BCE29 /* Build configuration list for PBXProject "TitleBuilder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -569,8 +570,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				6318E9231339AA3C008BCE29 /* AE */,
-				E40326AB1CA4D97300E65233 /* ae */,
+				6318E9231339AA3C008BCE29 /* TitleBuilder */,
+				E40326AB1CA4D97300E65233 /* tb */,
 			);
 		};
 /* End PBXProject section */
@@ -612,7 +613,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp $CONFIGURATION_BUILD_DIR/ae $SRCROOT/../../server";
+			shellScript = "cp $CONFIGURATION_BUILD_DIR/ae $SRCROOT/../../tb";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -829,7 +830,7 @@
 				INFOPLIST_FILE = BaseInfo.plist;
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.AE";
-				PRODUCT_NAME = AE;
+				PRODUCT_NAME = TitleBuilder;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -847,7 +848,7 @@
 				INFOPLIST_FILE = BaseInfo.plist;
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.AE";
-				PRODUCT_NAME = AE;
+				PRODUCT_NAME = TitleBuilder;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -961,7 +962,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6318E91E1339AA3B008BCE29 /* Build configuration list for PBXProject "AE" */ = {
+		6318E91E1339AA3B008BCE29 /* Build configuration list for PBXProject "TitleBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6318E9401339AA3C008BCE29 /* Debug */,
@@ -970,7 +971,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6318E9421339AA3C008BCE29 /* Build configuration list for PBXNativeTarget "AE" */ = {
+		6318E9421339AA3C008BCE29 /* Build configuration list for PBXNativeTarget "TitleBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6318E9431339AA3C008BCE29 /* Debug */,
@@ -979,7 +980,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E40326B21CA4D97300E65233 /* Build configuration list for PBXNativeTarget "ae" */ = {
+		E40326B21CA4D97300E65233 /* Build configuration list for PBXNativeTarget "tb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E40326B01CA4D97300E65233 /* Debug */,
