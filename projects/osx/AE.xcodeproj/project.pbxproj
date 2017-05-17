@@ -66,8 +66,6 @@
 		E4B43A121ECBC44C00A5D4D0 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439CB1ECBC44C00A5D4D0 /* pngrutil.c */; };
 		E4B43A131ECBC44C00A5D4D0 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439CC1ECBC44C00A5D4D0 /* pngset.c */; };
 		E4B43A141ECBC44C00A5D4D0 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439CC1ECBC44C00A5D4D0 /* pngset.c */; };
-		E4B43A151ECBC44C00A5D4D0 /* pngtest.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439CD1ECBC44C00A5D4D0 /* pngtest.c */; };
-		E4B43A161ECBC44C00A5D4D0 /* pngtest.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439CD1ECBC44C00A5D4D0 /* pngtest.c */; };
 		E4B43A181ECBC44C00A5D4D0 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439CF1ECBC44C00A5D4D0 /* pngtrans.c */; };
 		E4B43A191ECBC44C00A5D4D0 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439CF1ECBC44C00A5D4D0 /* pngtrans.c */; };
 		E4B43A1A1ECBC44C00A5D4D0 /* pngvcrd.c in Sources */ = {isa = PBXBuildFile; fileRef = E4B439D01ECBC44C00A5D4D0 /* pngvcrd.c */; };
@@ -84,6 +82,7 @@
 		E4B43AA31ECBC89100A5D4D0 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B43A891ECBC89100A5D4D0 /* Logger.cpp */; };
 		E4B43AAB1ECBC89100A5D4D0 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B43A911ECBC89100A5D4D0 /* Matrix.cpp */; };
 		E4B43AAC1ECBC89100A5D4D0 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B43A911ECBC89100A5D4D0 /* Matrix.cpp */; };
+		E4B43AB51ECBCB6C00A5D4D0 /* libdifont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B4399A1ECBBADA00A5D4D0 /* libdifont.a */; };
 		E4FBA3071C7AB79000F152A3 /* LogoGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4FBA3051C7AB79000F152A3 /* LogoGenerator.cpp */; };
 		E4FBA30E1C8CC6CF00F152A3 /* ScreenShotr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4FBA30C1C8CC6CF00F152A3 /* ScreenShotr.cpp */; };
 		E4FBA3111C8CC8C700F152A3 /* ImageFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4FBA30F1C8CC8C700F152A3 /* ImageFunctions.cpp */; };
@@ -171,7 +170,6 @@
 		E4B439CA1ECBC44C00A5D4D0 /* pngrtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrtran.c; sourceTree = "<group>"; };
 		E4B439CB1ECBC44C00A5D4D0 /* pngrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrutil.c; sourceTree = "<group>"; };
 		E4B439CC1ECBC44C00A5D4D0 /* pngset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngset.c; sourceTree = "<group>"; };
-		E4B439CD1ECBC44C00A5D4D0 /* pngtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtest.c; sourceTree = "<group>"; };
 		E4B439CF1ECBC44C00A5D4D0 /* pngtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtrans.c; sourceTree = "<group>"; };
 		E4B439D01ECBC44C00A5D4D0 /* pngvcrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngvcrd.c; sourceTree = "<group>"; };
 		E4B439D11ECBC44C00A5D4D0 /* pngwio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwio.c; sourceTree = "<group>"; };
@@ -228,6 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B43AB51ECBCB6C00A5D4D0 /* libdifont.a in Frameworks */,
 				E40326D11CA4E3C000E65233 /* libz.tbd in Frameworks */,
 				E40326CF1CA4E3B100E65233 /* OpenGL.framework in Frameworks */,
 				E40326CD1CA4E1B800E65233 /* libglfw3.3.1.dylib in Frameworks */,
@@ -456,7 +455,6 @@
 				E4B439CA1ECBC44C00A5D4D0 /* pngrtran.c */,
 				E4B439CB1ECBC44C00A5D4D0 /* pngrutil.c */,
 				E4B439CC1ECBC44C00A5D4D0 /* pngset.c */,
-				E4B439CD1ECBC44C00A5D4D0 /* pngtest.c */,
 				E4B439CF1ECBC44C00A5D4D0 /* pngtrans.c */,
 				E4B439D01ECBC44C00A5D4D0 /* pngvcrd.c */,
 				E4B439D11ECBC44C00A5D4D0 /* pngwio.c */,
@@ -651,7 +649,6 @@
 				E4B43A091ECBC44C00A5D4D0 /* pngpread.c in Sources */,
 				E40FEA5A1D417535008F93B3 /* Mesh.cpp in Sources */,
 				E4B43A001ECBC44C00A5D4D0 /* pngerror.c in Sources */,
-				E4B43A151ECBC44C00A5D4D0 /* pngtest.c in Sources */,
 				E464B80B1D3DDB9B0013B0CE /* Job.cpp in Sources */,
 				E418756A1AABBB0A0005AC43 /* CommonMath.cpp in Sources */,
 				E4B43A0F1ECBC44C00A5D4D0 /* pngrtran.c in Sources */,
@@ -690,7 +687,6 @@
 				E4B439FD1ECBC44C00A5D4D0 /* png.c in Sources */,
 				E4B43A1D1ECBC44C00A5D4D0 /* pngwio.c in Sources */,
 				E40326C61CA4D9CC00E65233 /* ImageFunctions.cpp in Sources */,
-				E4B43A161ECBC44C00A5D4D0 /* pngtest.c in Sources */,
 				E4B43A191ECBC44C00A5D4D0 /* pngtrans.c in Sources */,
 				E4B43AA31ECBC89100A5D4D0 /* Logger.cpp in Sources */,
 				E40326C71CA4D9CC00E65233 /* CommonMath.cpp in Sources */,
@@ -906,7 +902,7 @@
 					/usr/local/Cellar/glew/1.13.0/lib,
 					/usr/local/Cellar/glfw3/3.1.2/lib,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -956,7 +952,7 @@
 					/usr/local/Cellar/glew/1.13.0/lib,
 					/usr/local/Cellar/glfw3/3.1.2/lib,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

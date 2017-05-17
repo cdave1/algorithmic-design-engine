@@ -4,3 +4,6 @@
 [submodule "lib/mash"]
 	path = lib/mash
 	url = git@github.com:cdave1/mash.git
+[submodule "lib/difont"]
+	path = lib/difont
+	url = git@github.com:cdave1/difont.git
