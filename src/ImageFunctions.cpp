@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016 David Petrie david@davidpetrie.com
+ * Copyright (c) 2017 David Petrie david@davidpetrie.com
  *
  * This software is provided 'as-is', without any express or implied warranty.
  * In no event will the authors be held liable for any damages arising from the
@@ -113,7 +113,7 @@ bool ImageFunctions::WriteSVG(const std::string &filename, uint32_t width, uint3
 
     unsigned count = 0;
     for (difont::GlyphData glyph : renderData.GetGlyphData()) {
-        outfile << "<g id=\"glyph" << count << "\">";
+        outfile << "<g transform=\"translate(0.0,500.0)\" id=\"glyph" << count << "\">";
         outfile << "<path d=\"";
 
         for (difont::Path path : glyph.GetPaths()) {
